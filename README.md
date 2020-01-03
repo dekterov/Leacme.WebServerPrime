@@ -5,6 +5,7 @@
 This application features the ability to run a portable web server, allowing web browsers to connect it and view the shared content. If index.html is present in the root directory, the server will display its html, otherwise it will list the files and folders in the shared directory.
 
 ![][image_screenshot]
+![index](https://user-images.githubusercontent.com/6654513/71704389-5fdf4200-2d97-11ea-9aa8-3724530088f3.png)
 
 ## Application Compiling
 
