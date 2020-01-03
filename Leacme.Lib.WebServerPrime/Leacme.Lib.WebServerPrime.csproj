@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<OutputType>library</OutputType>
+		<Optimize>false</Optimize>
+		<Copyright>(c) 2017 Leacme (http://leac.me)</Copyright>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<NoWarn>NU1605</NoWarn>
+	</PropertyGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="..\LICENSE.md" />
+		<EmbeddedResource Include="..\README.md" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="LiteDB" Version="[4.1.4,5.0.0)" />
+		<PackageReference Include="Microsoft.AspNetCore.App" Version="*" />
+		<PackageReference Include="Serilog.AspNetCore" Version="*" />
+		<PackageReference Include="Serilog.Sinks.Observable" Version="*" />
+	</ItemGroup>
+</Project>
