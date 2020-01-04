@@ -8,18 +8,18 @@
 		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Avalonia" Version="*" />
-		<PackageReference Include="Avalonia.Win32" Version="*" />
-		<PackageReference Include="Avalonia.Desktop" Version="*" />
-		<PackageReference Include="Avalonia.Direct2D1" Version="*" />
-		<PackageReference Include="Avalonia.Remote.Protocol" Version="*" />
-		<PackageReference Include="Avalonia.Gtk3" Version="*" />
-		<PackageReference Include="Avalonia.Skia" Version="*" />
-		<PackageReference Include="Avalonia.ReactiveUI" Version="*" />
-		<PackageReference Include="Avalonia.Native" Version="*" />
-		<PackageReference Include="Avalonia.X11" Version="*" />
-		<PackageReference Include="Avalonia.LinuxFramebuffer" Version="*" />
-		<PackageReference Include="Avalonia.Controls.DataGrid" Version="*" />
+		<PackageReference Include="Avalonia" Version="0.8.3" />
+		<PackageReference Include="Avalonia.Win32" Version="0.8.3" />
+		<PackageReference Include="Avalonia.Desktop" Version="0.8.3" />
+		<PackageReference Include="Avalonia.Direct2D1" Version="0.8.3" />
+		<PackageReference Include="Avalonia.Remote.Protocol" Version="0.8.3" />
+		<PackageReference Include="Avalonia.Gtk3" Version="0.8.3" />
+		<PackageReference Include="Avalonia.Skia" Version="0.8.3" />
+		<PackageReference Include="Avalonia.ReactiveUI" Version="0.8.3" />
+		<PackageReference Include="Avalonia.Native" Version="0.8.3" />
+		<PackageReference Include="Avalonia.X11" Version="0.8.3" />
+		<PackageReference Include="Avalonia.LinuxFramebuffer" Version="0.8.3" />
+		<PackageReference Include="Avalonia.Controls.DataGrid" Version="0.8.3" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Leacme.Lib.WebServerPrime\Leacme.Lib.WebServerPrime.csproj" />
